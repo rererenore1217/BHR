@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 import 'package:mlkit_text_recognition_v2_app/pages/home_page.dart';
-import 'dart:async';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const MyApp());
 }
 
@@ -66,8 +66,8 @@ class CustomShapeBorder extends ShapeBorder {
 
     // 描画するTextのスタイル
     const textStyle = TextStyle(
-      color: Colors.white,
-      fontSize: 15,
+      color: Colors.black,
+      fontSize: 12,
     );
 
     // 各ブロックのBoxtとTextを描画
